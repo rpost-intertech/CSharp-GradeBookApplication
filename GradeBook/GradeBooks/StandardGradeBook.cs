@@ -5,7 +5,7 @@ using GradeBook.Enums;
 
 namespace GradeBook.GradeBooks
 {
-    class StandardGradeBook : BaseGradeBook
+    public class StandardGradeBook : BaseGradeBook
     { 
         //invoke a constructor from BaseGradeBook using base
         public StandardGradeBook(string name) : base(name)
