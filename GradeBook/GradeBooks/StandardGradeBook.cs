@@ -8,7 +8,7 @@ namespace GradeBook.GradeBooks
     public class StandardGradeBook : BaseGradeBook
     { 
         //invoke a constructor from BaseGradeBook using base
-        public StandardGradeBook(string name) : base(name)
+        public StandardGradeBook(string name, bool isWeighted) : base(name, isWeighted)
         {
             Type = GradeBookType.Standard;
         }
